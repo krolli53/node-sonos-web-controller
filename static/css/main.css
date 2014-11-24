@@ -136,16 +136,16 @@ h4 {
 #top-control #current-track-info img {
 	display: inline-block;
 	vertical-align: top;
-	top: 50px;
-	right: 20px;
+	top: 2px;
+	right: 2px;
 	position: absolute;
 }
 
 #top-control #current-track-info div {
 	display: inline-block;
 	vertical-align: top;
-	top: 70px;
-	left: 20px;
+	top: 100px;
+	left: 5px;
 	position: absolute;
 }
 
@@ -167,7 +167,7 @@ h4 {
 	/*height: 10px;*/
 	width: 100%;
 	font-weight: normal;
-	font-size: 8px;
+	font-size: 12px;
 	line-height: 10%;
 }
 
@@ -180,7 +180,7 @@ h4 {
 #top-control #current-track-info h6 {
 	color: rgb(4,90,218);
 	font-weight: normal;
-	font-size: 8px;
+	font-size: 12px;
 	margin: 0;
 }
 
@@ -191,9 +191,9 @@ h4 {
 	/*margin-top: 2px;*/
 }
 
-#top-control current-track-info p {
+#top-control #current-track-info p {
 	margin: 0;
-	font-size: 8px;
+	font-size: 12px;
 }
 
 /* rounded containers */
@@ -334,8 +334,8 @@ h4 {
 
 #controls {
 	height: 44px;
-	width: 124px;
-	/*width: 200px;*/
+	/*width: 124px;*/
+	width: 200px;
 	margin: 7px auto 0;
 }
 
@@ -344,7 +344,7 @@ h4 {
 	width: 320px;
 	margin: 7px auto 0 auto;
 	position: absolute;
-	bottom: 0px;
+	top: 218px;
 	left: 0px;
 }
 
