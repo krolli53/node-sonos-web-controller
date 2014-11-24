@@ -378,8 +378,8 @@ h4 {
 }
 
 #position-bar-scrubber {
-	width: 4px;
-	height: 4px;
+	width: 10px;
+	height: 10px;
 	border-radius: 2px;
 	background: linear-gradient(to bottom, rgb(240,240,240), rgb(72,72,72));
 	-moz-box-sizing: border-box;
