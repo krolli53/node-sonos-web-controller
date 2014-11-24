@@ -399,8 +399,8 @@ h4 {
 }
 
 #position-bar {
-	height: 4px;
-	width: 150px;
+	height: 10px;
+	width: 130px;
 	border-radius: 3px;
 	border-top: 1px solid #101010;
 	border-bottom: 1px solid #606060;
