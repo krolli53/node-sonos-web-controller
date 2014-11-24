@@ -144,7 +144,7 @@ h4 {
 #top-control #current-track-info div {
 	display: inline-block;
 	vertical-align: top;
-	top: 50px;
+	top: 70px;
 	left: 20px;
 	position: absolute;
 }
@@ -340,7 +340,7 @@ h4 {
 	width: 320px;
 	margin: 7px auto 0 auto;
 	position: absolute;
-	top: 216px;
+	bottom: 0px;
 	left: 0px;
 }
 
