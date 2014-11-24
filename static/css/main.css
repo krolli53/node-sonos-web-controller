@@ -132,7 +132,7 @@ h4 {
 	border-radius: 0;
 }
 
-#status-container #current-track-info {
+#top-control #current-track-info {
 	background-image: -moz-linear-gradient(top, rgb(5,68,114) 10%, #021B2E 100%);
 	background-image: -webkit-linear-gradient(top, rgb(5,68,114) 10%, #021B2E 100%);
 	border-top: 1px solid rgb(37,85,125);
@@ -150,7 +150,7 @@ h4 {
 	position: absolute;
 }
 
-#status-container #current-track-info div {
+#top-control #current-track-info div {
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-bottom: 1px;
@@ -159,43 +159,42 @@ h4 {
 	word-wrap: nowrap;
 }
 
-#status-container #current-track-info img {
+#top-control #current-track-info img {
 	height: 140px;
 	width: 140px;
 }
 
-#status-container #current-track-info div p {
+#top-control #current-track-info div p {
 	height: 10px;
 	width: 100%;
 }
 
-#status-container #next-track {
+#top-control #next-track {
 	width: 100%;
 	overflow: hidden;
 	white-space: nowrap;
 }
 
-#current-track-info h6 {
+#top-control #current-track-info h6 {
 	color: rgb(4,90,218);
 	font-weight: normal;
 	font-size: 10px;
 	margin: 0;
 }
 
-#current-track-info h5 {
+#top-control #current-track-info h5 {
 	color: rgb(4,90,218);
 	font-size: 10px;
 	margin: 0;
 	/*margin-top: 2px;*/
 }
 
-#current-track-info p {
+#top-control current-track-info p {
 	margin: 0;
 	font-size: 10px;
 }
 
 /* rounded containers */
-#top-control,
 #zone-container,
 #status-container,
 #music-sources-container
