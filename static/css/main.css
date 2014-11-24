@@ -137,7 +137,7 @@ h4 {
 	display: inline-block;
 	vertical-align: top;
 	top: 2px;
-	right: 2px;
+	right: -2px;
 	position: absolute;
 }
 
@@ -246,7 +246,7 @@ h4 {
 }
 
 #master-volume {
-	top: 190px;
+	top: 195px;
 	left: 5px;
 	position: absolute;
 }
@@ -278,6 +278,7 @@ h4 {
 }
 
 #player-volumes {
+	visibility: hidden;
 	position: absolute;
 	top: 58px;
 	left: 50px;
@@ -358,7 +359,7 @@ h4 {
 	width: 320px;
 	margin: 7px auto 0 auto;
 	position: absolute;
-	top: 200px;
+	top: 210px;
 	left: 0px;
 }
 
