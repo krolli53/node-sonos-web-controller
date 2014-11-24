@@ -324,7 +324,7 @@ h4 {
 
 #master-mute {
 	position: absolute;
-	top: 24px;
+	top: 15px;
 	left: 10px;
 }
 
@@ -339,8 +339,8 @@ h4 {
 	width: 320px;
 	margin: 7px auto 0 auto;
 	position: absolute;
-	top: 218;
-	left: 0;
+	top: 218px;
+	left: 0px;
 }
 
 #position-info .left {
