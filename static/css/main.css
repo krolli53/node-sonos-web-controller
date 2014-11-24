@@ -247,12 +247,12 @@ h4 {
 
 #master-volume {
 	top: 195px;
-	left: 5px;
+	left: 15px;
 	position: absolute;
 }
 
 #top-control .volume-bar {
-	width: 310px;
+	width: 290px;
 	height: 10px;
 	border-radius: 15px;
 	border-top: 1px solid #303030;
