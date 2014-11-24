@@ -15,7 +15,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
 	background: #053A66;
-	border-radius: 30px;
+	border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
 	background: #07569B;
@@ -252,7 +252,7 @@ h4 {
 
 #top-control .volume-bar {
 	width: 310px;
-	height: 30px;
+	height: 10px;
 	border-radius: 15px;
 	border-top: 1px solid #303030;
 	border-bottom: 1px solid #707070;
