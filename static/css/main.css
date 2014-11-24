@@ -141,8 +141,15 @@ h4 {
 	padding-left: 5px;
 }
 
-#status-container #current-track-info div,
 #status-container #current-track-info img {
+	display: inline-block;
+	vertical-align: top;
+	top: 50px;
+	left: 90px;
+	position: absolute;
+}
+
+#status-container #current-track-info div {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -157,8 +164,8 @@ h4 {
 }
 
 #status-container #current-track-info img {
-	max-height: 100px;
-	max-width: 100px;
+	max-height: 140px;
+	max-width: 140px;
 }
 
 #status-container #current-track-info div p {
