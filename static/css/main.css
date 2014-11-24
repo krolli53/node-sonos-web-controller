@@ -94,12 +94,6 @@ h4 {
 
 /* grey container */
 #top-control {
-	border-radius: 5px;
-	border-top: 2px solid #1A1A1A;
-	border-left: 2px solid #1A1A1A;
-	border-bottom: 2px solid #2D2C2C;
-	border-right: 2px solid #2D2C2C;
-
 	background: #000;
 	height: 240px;
 	background-image: -moz-linear-gradient(bottom, rgb(37,37,37) 5%, rgb(81,81,81) 95%);
@@ -133,20 +127,25 @@ h4 {
 }
 
 #top-control #current-track-info {
-	background-image: -moz-linear-gradient(top, rgb(5,68,114) 10%, #021B2E 100%);
-	background-image: -webkit-linear-gradient(top, rgb(5,68,114) 10%, #021B2E 100%);
 	border-top: 1px solid rgb(37,85,125);
 	height: 180px;
 	padding-top: 10px;
 	padding-left: 5px;
 }
 
-#top-control #current-track-info img,
+#top-control #current-track-info img {
+	display: inline-block;
+	vertical-align: top;
+	top: 50px;
+	right: 20px;
+	position: absolute;
+}
+
 #top-control #current-track-info div {
 	display: inline-block;
 	vertical-align: top;
 	top: 50px;
-	left: 90px;
+	left: 20px;
 	position: absolute;
 }
 
