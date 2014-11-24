@@ -144,7 +144,7 @@ h4 {
 #top-control #current-track-info div {
 	display: inline-block;
 	vertical-align: top;
-	top: 100px;
+	top: 85px;
 	left: 5px;
 	position: absolute;
 }
@@ -168,7 +168,7 @@ h4 {
 	width: 100%;
 	font-weight: normal;
 	font-size: 12px;
-	line-height: 5px;
+	line-height: 2px;
 }
 
 #top-control #next-track {
@@ -341,13 +341,13 @@ h4 {
 }
 #play-pause {
 	top: 10px;
-	left: 60px;
+	left: 45px;
 	position: absolute;
 }
 
 #next {
 	top: 10px;
-	left: 110px;
+	left: 92px;
 	position: absolute;
 }
 
