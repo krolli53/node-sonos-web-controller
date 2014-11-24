@@ -136,7 +136,7 @@ h4 {
 	background-image: -moz-linear-gradient(top, rgb(5,68,114) 10%, #021B2E 100%);
 	background-image: -webkit-linear-gradient(top, rgb(5,68,114) 10%, #021B2E 100%);
 	border-top: 1px solid rgb(37,85,125);
-	height: 224px;
+	height: 180px;
 	padding-top: 10px;
 	padding-left: 5px;
 }
@@ -148,21 +148,21 @@ h4 {
 }
 
 #status-container #current-track-info div {
-	padding-top: 20px;
-	padding-left: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
 	padding-bottom: 1px;
-	width: calc(100% - 220px);
+	width: calc(100% - 180px);
 	overflow: hidden;
 	word-wrap: nowrap;
 }
 
 #status-container #current-track-info img {
-	max-height: 180px;
-	max-width: 180px;
+	max-height: 100px;
+	max-width: 100px;
 }
 
 #status-container #current-track-info div p {
-	height: 36px;
+	height: 15px;
 	width: 100%;
 }
 
@@ -175,20 +175,20 @@ h4 {
 #status-container h6 {
 	color: rgb(4,90,218);
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0;
 }
 
 #status-container h5 {
 	color: rgb(4,90,218);
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0;
-	margin-top: 4px;
+	margin-top: 2px;
 }
 
 #status-container p {
 	margin: 0;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 /* rounded containers */
