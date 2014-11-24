@@ -156,6 +156,7 @@ h4 {
 	width: 140px;
 	overflow: hidden;
 	word-wrap: nowrap;
+	margin: 0;
 }
 
 #top-control #current-track-info img {
@@ -168,7 +169,8 @@ h4 {
 	width: 100%;
 	font-weight: normal;
 	font-size: 12px;
-	line-height: 2px;
+	line-height: 14px;
+	margin: 0;
 }
 
 #top-control #next-track {
@@ -323,7 +325,7 @@ h4 {
 
 #master-mute {
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	left: 10px;
 }
 
@@ -335,7 +337,7 @@ h4 {
 }*/
 
 #prev {
-	top: 10px;
+	top: 7px;
 	left: 10px;
 	position: absolute;
 }
@@ -346,7 +348,7 @@ h4 {
 }
 
 #next {
-	top: 10px;
+	top: 7px;
 	left: 92px;
 	position: absolute;
 }
