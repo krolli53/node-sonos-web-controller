@@ -101,7 +101,7 @@ h4 {
 	border-right: 2px solid #2D2C2C;
 
 	background: #000;
-	height: 80px;
+	height: 240px;
 	background-image: -moz-linear-gradient(bottom, rgb(37,37,37) 5%, rgb(81,81,81) 95%);
 	background-image: -webkit-linear-gradient(bottom, rgb(37,37,37) 5%, rgb(81,81,81) 95%);
 	background-image: -ms-linear-gradient(bottom, rgb(37,37,37) 5%, rgb(81,81,81) 95%);
@@ -245,14 +245,14 @@ h4 {
 }
 
 #master-volume {
-	top: 100px;
-	left: 100px;
+	top: 200px;
+	left: 5px;
 	position: absolute;
 }
 
 #top-control .volume-bar {
 	width: 310px;
-	height: 21px;
+	height: 20px;
 	border-radius: 15px;
 	border-top: 1px solid #303030;
 	border-bottom: 1px solid #707070;
