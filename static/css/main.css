@@ -336,9 +336,11 @@ h4 {
 
 #position-info {
 	height: 22px;
-	width: 440px;
+	width: 320px;
 	margin: 7px auto 0 auto;
-	position: relative;
+	position: absolute;
+	top: 218;
+	left: 0;
 }
 
 #position-info .left {
