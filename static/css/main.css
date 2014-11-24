@@ -43,9 +43,7 @@ h4 {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-shadow: 0 0 1px rgb(56,56,56);
-	position: absolute;
-	top: 20px;
-	left: 160px;
+	vertical-align: middle;
 }
 
 #top-control #prev,
