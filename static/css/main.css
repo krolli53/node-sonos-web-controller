@@ -42,8 +42,10 @@ h4 {
 	background: linear-gradient(to bottom, rgb(128,128,128), rgb(72,72,72));
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	vertical-align: middle;
 	box-shadow: 0 0 1px rgb(56,56,56);
+	position: absolute;
+	top: 20px;
+	left: 160px;
 }
 
 #top-control #prev,
