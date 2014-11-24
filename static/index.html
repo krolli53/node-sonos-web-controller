@@ -12,6 +12,7 @@
 	</head>
 <body>
 	<header id="top-control">
+		<img  id="master-mute" class="mute-button" src="svg/mute_off.svg" />
 		<div id="controls">
 		<img id="prev" src="svg/prev.svg" />
 		<div id="play-pause" class="play">
@@ -20,7 +21,20 @@
 		</div>
 		<img id="next" src="svg/next.svg" />
 		</div>
-		<img  id="master-mute" class="mute-button" src="svg/mute_off.svg" />
+		<h4 id="now-playing">NOW PLAYING</h4>
+			<div id="current-track-info">
+				<img id="current-track-art" />
+				<div>
+					<h6>Track</h6>
+					<p id="track"></p>
+					<h6>Artist</h6>
+					<p id="artist"></p>
+					<h6>Album</h6>
+					<p id="album"></p>
+				</div>
+				<h5>Next</h5>
+				<p id="next-track"></p>
+			</div>
 		<div id="master-volume" class="volume-bar" /><img src="images/popover_vol_scrubber_normal.png" /></div>
 		<div id="player-volumes-container">
 			<div id="player-volumes" class="loading"></div>
