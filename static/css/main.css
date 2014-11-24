@@ -168,7 +168,7 @@ h4 {
 	width: 100%;
 	font-weight: normal;
 	font-size: 12px;
-	line-height: 10%;
+	line-height: 5px;
 }
 
 #top-control #next-track {
@@ -189,11 +189,6 @@ h4 {
 	font-size: 8px;
 	margin: 0;
 	/*margin-top: 2px;*/
-}
-
-#top-control #current-track-info p {
-	margin: 0;
-	font-size: 12px;
 }
 
 /* rounded containers */
@@ -328,15 +323,32 @@ h4 {
 
 #master-mute {
 	position: absolute;
-	top: 10px;
+	top: 40px;
 	left: 10px;
 }
 
-#controls {
+/*#controls {
 	height: 44px;
-	/*width: 124px;*/
-	width: 200px;
+	//width: 124px;
+	width: 250px;
 	margin: 7px auto 0;
+}*/
+
+#prev {
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+#play-pause {
+	top: 10px;
+	left: 60px;
+	position: absolute;
+}
+
+#next {
+	top: 10px;
+	left: 110px;
+	position: absolute;
 }
 
 #position-info {
@@ -344,7 +356,7 @@ h4 {
 	width: 320px;
 	margin: 7px auto 0 auto;
 	position: absolute;
-	top: 218px;
+	top: 200px;
 	left: 0px;
 }
 
