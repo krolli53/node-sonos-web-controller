@@ -400,11 +400,11 @@ h4 {
 
 #position-bar {
 	height: 10px;
-	width: 130px;
+	width: 160px;
 	border-radius: 3px;
 	border-top: 1px solid #101010;
 	border-bottom: 1px solid #606060;
-	vertical-align: middle;
+	vertical-align: right;
 	position: relative;
 }
 
