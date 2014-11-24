@@ -12,20 +12,18 @@
 	</head>
 <body>
 	<header id="top-control">
-
+		<div id="controls">
+		<img id="prev" src="svg/prev.svg" />
+		<div id="play-pause" class="play">
+			<img id="play" src="svg/play.svg" />
+			<img id="pause" src="svg/pause.svg" />
+		</div>
+		<img id="next" src="svg/next.svg" />
+		</div>
 		<img  id="master-mute" class="mute-button" src="svg/mute_off.svg" />
 		<div id="master-volume" class="volume-bar" /><img src="images/popover_vol_scrubber_normal.png" /></div>
 		<div id="player-volumes-container">
 			<div id="player-volumes" class="loading"></div>
-		</div>
-		<div id="controls">
-			<img id="prev" src="svg/prev.svg" />
-			<div id="play-pause" class="play">
-				<img id="play" src="svg/play.svg" />
-				<img id="pause" src="svg/pause.svg" />
-			</div>
-			<img id="next" src="svg/next.svg" />
-
 		</div>
 		<div id="position-info">
 			<img class="left" src="images/tc_progress_container_left.png" />
@@ -46,10 +44,7 @@
 		</div>
 	</header>
 	<div id="column-container">
-		<div id="zone-container">
-			<h4>ROOMS</h4>
-			<div id="zone-wrapper"></div>
-		</div>
+
 		<div id="status-container">
 			<h4 id="now-playing">NOW PLAYING</h4>
 			<div id="current-track-info">
