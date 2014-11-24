@@ -120,7 +120,7 @@ h4 {
 	font-size: 15px;
 }
 
-#status-container h4#now-playing {
+#current-track-info h4#now-playing {
 	background-image: -moz-linear-gradient(top, rgb(7,79,131) 0%, rgb(9,58,94) 100%);
 	background-image: -webkit-linear-gradient(top, rgb(7,79,131) 0%, rgb(9,58,94) 100%);
 	background-image: linear-gradient(top, rgb(7,79,131) 0%, rgb(9,58,94) 100%);
@@ -128,7 +128,7 @@ h4 {
 	color: #fff;
 }
 
-#status-container h4#queue {
+#current-track-info h4#queue {
 	border-radius: 0;
 }
 
@@ -164,12 +164,12 @@ h4 {
 }
 
 #status-container #current-track-info img {
-	max-height: 140px;
-	max-width: 140px;
+	height: 140px;
+	width: 140px;
 }
 
 #status-container #current-track-info div p {
-	height: 15px;
+	height: 10px;
 	width: 100%;
 }
 
@@ -179,23 +179,23 @@ h4 {
 	white-space: nowrap;
 }
 
-#status-container h6 {
+#current-track-info h6 {
 	color: rgb(4,90,218);
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 10px;
 	margin: 0;
 }
 
-#status-container h5 {
+#current-track-info h5 {
 	color: rgb(4,90,218);
-	font-size: 12px;
+	font-size: 10px;
 	margin: 0;
-	margin-top: 2px;
+	/*margin-top: 2px;*/
 }
 
-#status-container p {
+#current-track-info p {
 	margin: 0;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 /* rounded containers */
